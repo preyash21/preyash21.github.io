@@ -4,12 +4,13 @@ html{
   font-size: max(1em, 0.9vw);
   width: 100%;
   height: 100%;
-
 }
 
 @media (max-width: 415px){
   html{
     font-size: max(0.7em, 0.9vw);
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -193,6 +194,7 @@ a:hover{
     animation: scroll .375s 1s both ease-out;
   }
 }
+
 
 
 @keyframes scroll{
