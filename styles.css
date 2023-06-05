@@ -45,7 +45,7 @@ a:hover{
 }
 
 .grid-item{
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 .logo{
@@ -181,31 +181,6 @@ a:hover{
   .hero-scroll{
     grid-column: 3/19;
     grid-row: 10/11;
-    font-size: 1.2rem;
-    display: flex;
-    animation: scroll .375s 1s both ease-out;
-  }
-}
-
-@media (max-width: 415px){
-  .hero-content{
-    grid-column: 3/19;
-    grid-row: 2/11;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .hero-text{
-    font-size: 2.5rem;
-    font-weight: bold;
-    align-self: center;
-    animation: hero-text .8s .25s both ease-out;
-  }
-
-  
-  .hero-scroll{
-    grid-column: 3/19;
-    grid-row: 9/10;
     font-size: 1.2rem;
     display: flex;
     animation: scroll .375s 1s both ease-out;
