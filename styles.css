@@ -2,7 +2,6 @@
 
 html{
   font-size: max(1em, 0.9vw);
-  height: 100dvh;
 }
 
 @media (max-width: 415px){
