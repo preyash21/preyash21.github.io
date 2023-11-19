@@ -558,7 +558,7 @@ padding-bottom: 10px;
 }
 
 .feature-img{
-  max-width: 45vw;
+  max-width: 50vw;
   max-height: auto;
   filter: drop-shadow(0 0 1rem rgba(83, 83, 83, 0.5));
   animation: scroll .375s both ease-out;
